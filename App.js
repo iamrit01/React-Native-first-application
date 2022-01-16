@@ -1,7 +1,7 @@
 import React from "react";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
-import { View } from "react-native";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
+import TestingScreen from "./app/screens/TestingScreen";
 export default function App() {
-  return <ViewImageScreen />;
+  return <TestingScreen />;
 }
